@@ -1,0 +1,12 @@
+.btn{
+    width: 100%;
+    max-width: 13.2rem;
+    padding: 1rem 2rem;
+    background:var(--secondary-color);
+    color: var(--white);
+    &--white-button{
+        background:var(--white) ;
+        color: black;
+    }
+   
+}
