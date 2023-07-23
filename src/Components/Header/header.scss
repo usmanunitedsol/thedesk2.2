@@ -1,0 +1,45 @@
+@mixin custom_width()
+{
+    width: 100%;
+    max-width: 1700px;
+
+}
+
+header {
+    margin: 2.2rem auto 3.6rem  ;
+    height: 10.2rem;
+    @include custom_width();
+
+    nav{
+         .nav_top_col2{
+            display: flex;
+            align-items: center;
+
+            :not(button:last-child){
+                margin-right:2.2rem;
+            }
+            .Register_Startup{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                ::before{
+                    content:url('../../images/register\ icon.png ');
+                    padding-top: 7px;
+                    padding-right: 5px;
+                  
+                }
+            }
+
+            .Register_Startup::before{
+                content:url('../../images/register\ icon.png ');
+                padding-top: 7px;
+                padding-right: 5px;
+              
+            }
+
+            
+         }
+
+      
+    }
+}

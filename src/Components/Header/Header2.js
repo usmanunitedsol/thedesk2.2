@@ -11,25 +11,25 @@ const Header2 = () => {
          setNavmble(!navmobile)
     }
   return (
-   <header className='bg-slate-950 px-36 mt-6 h-28 max-w-[1700px] mx-auto'>
-            <nav className=''>
-            <div className='flex justify-between items-center'>
+   <header >
+            <nav className='nav_bar'>
+            <div className='nav_top flex justify-between items-center'>
                     <div className='brand'>
                       <img src={logo} alt='logo'/>
                     </div>
 
-                    <div>
+                    <div className='nav_top_col2'>
            
-                     <button className='bg-green-600 text-black rounded-md hover:bg-white'>051 844 2556</button>
-                     <button className='bg-green-600 text-black rounded-md hover:bg-white'>Register Startup</button>
-                     <button className='bg-green-600 text-black rounded-md hover:bg-white'>Book a Seat</button>
+                     <a className=' btn text-white'>051 844 2556</a>
+                     <button className=' btn text-white Register_Startup hover:bg-white'>Register Startup</button>
+                     <button className=' btn  hover:bg-white'>Book a Seat</button>
                      </div>
                    
                 </div>
 
                                       <hr class="solid navborder mt-7"/>
 
-                      <div className='flex justify-between items-center'>
+                      <div className='nav_bottom flex justify-between items-center'>
                           <ul className='hidden md:flex  pt-4'>
                           <li><a className="nav-link text-white" aria-current="page" href="#">Workspace</a></li>
                           <li><a className="nav-link text-white px-6" aria-current="page" href="#">Company</a></li>
